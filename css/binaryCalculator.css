@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 33%;
+    margin: 20px;
+}
+
+#res {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+button {
+    width: 25%;
+    height: 36px;
+    margin: 0;
+    font-size: 18px;
+    float: left;
+}
+
+#btn0,
+#btn1 {
+    color: brown;
+    background-color: lightgreen;
+}
+
+#btnClr,
+#btnEql {
+    color: white;
+    background-color: darkgreen;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+    color: red;
+    background-color: black;
+}
